@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Erika's Page</title>
-    <link rel="stylesheet" href="style.css" />
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Folio Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <script
+  src="https://kit.fontawesome.com/78bb10c051.js"
+  crossorigin="anonymous"
+  ></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,52 +31,453 @@
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="main">
-      <div class="corner-border">
-        <img src="upperborder.png" />
-        <img src="lowerborder.png" />
-      </div>
-      <div class="border">
-        <div class="inner">
-          <!-- <div class="pic"><img src="prof.jpg" /></div> -->
-          <h1 class="gradient-text">Welcome.</h1>
-          <p>
-            My name is Erika Culala. I am a sophomore student in De La Salle
-            University Manila, taking up Bachelor of Science Major in Software
-            Technology.
-          </p>
-        </div>
-        <div class="right-box">
-          <div class="highlight">HIGHLIGHTS</div>
-          <div class="inner-right">
-            <ul>
-              <li class="hover">
-                <a href="https://wavybangsy.github.io/try.pdf" class="link"
-                  >Download CV</a
-                >
-              </li>
-              <li class="hover">
-                <a href="https://github.com/" class="link">Github</a>
-              </li>
-              <li class="hover">
-                <a href="https://github.com/" class="link">Projects</a>
-              </li>
-            </ul>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+
+  <!-- =======================================================
+  * Template Name: Folio
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo"><h1 class="logo"><a href="index.html">Erika Culala</a></h1> 
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#resume">About</a></li>
+          <li><a class="nav-link  scrollto" href="#portfolio">Project</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="home">
+      <div class="hero-content">
+        <div class="main">
+          <div class="corner-border">
+            <img src="upperborder.png" />
+            <img src="lowerborder.png" />
+          </div>
+            <div class="borderout">
+            <div class="inner">
+              <!-- <div class="pic"><img src="prof.jpg" /></div> -->
+              <h2 class="gradient-text">Welcome.</h2>
+              <p>
+                My name is Erika Culala. I am a sophomore student in De La Salle
+                University Manila, taking up Bachelor of Science Major in Software
+                Technology.
+              </p>
+              <a href="#services"><h3 class="learn">Learn more <i class="bi bi-arrow-down-circle-fill"></i>
+              </h3></a>
+            </div>
+            <div class="right-box">
+              <div class="highlight">HIGHLIGHTS</div>
+              <div class="inner-right">
+                <ul>
+                  <li class="hover">
+                    <a href="https://wavybangsy.github.io/try.pdf" class="link"
+                      >Download CV</a
+                    >
+                  </li>
+                  <li class="hover">
+                    <a href="https://github.com/" class="link">Github</a>
+                  </li>
+                  <li class="hover">
+                    <a href="#portfolio" class="link">Projects</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </body>
-</html>
+  </div><!-- End Hero -->
 
-<!--
-    
--->
+  <main id="main">
+    <!-- ======= Services Section ======= -->
+    <div id="services">
+      <div class="section-title text-center">
+        <h2>My Skills</h2>
+          <div class="p-class">
+          <p>Active involvement in various machine projects, both individually and in groups, alongside personal exploration, has significantly expanded my knowledge in the following Programming Languages and design tools:  </p>
+        </div>  
+      </div>
+      <div class="container">
+
+
+        <div class="services-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+                
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="fa-brands fa-java"></i>
+                <span>Java</span>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="fa-solid fa-c"></i>
+                <span>C</span>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="fa-sharp fa-solid fa-file-code"></i>
+                <span>CSS</span>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="fa-sharp fa-solid fa-file-code"></i>
+                <span>HTML</span>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="fa-brands fa-golang"></i>
+                <span>Go</span>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-filetype-rb"></i>
+                <span>Ruby</span>
+              </div>
+
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>Godot</span>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="section-title text-center">
+          <h2>Skills Ranking</h2>
+            <div class="p-class">
+            <p>My familiarity and proficiency in the programming languages and design tools are as follows</p>
+          </div>  
+        </div>
+        <div class="rank">
+          <div class="wrapper">
+            <div class="card python">
+              <div class="circle">
+                <div class="bar"></div>
+                <div class="box"><span></span></div>
+              </div>
+              <div class="text">Python</div>
+            </div>
+            <div class="card java">
+              <div class="circle">
+                <div class="bar"></div>
+                <div class="box"><span></span></div>
+              </div>
+              <div class="text">Java</div>
+            </div>
+            <div class="card clang">
+              <div class="circle">
+                <div class="bar"></div>
+                <div class="box"><span></span></div>
+              </div>
+              <div class="text">C</div>
+            </div>
+            <div class="card HTML">
+              <div class="circle">
+                <div class="bar"></div>
+                <div class="box"><span></span></div>
+              </div>
+              <div class="text">HTML</div>
+            </div>
+            <div class="card CSS">
+              <div class="circle">
+                <div class="bar"></div>
+                <div class="box"><span></span></div>
+              </div>
+              <div class="text">CSS</div>
+            </div>
+            <div class="card go">
+              <div class="circle">
+                <div class="bar"></div>
+                <div class="box"><span></span></div>
+              </div>
+              <div class="text">Go</div>
+            </div>
+            <div class="card ruby">
+              <div class="circle">
+                <div class="bar"></div>
+                <div class="box"><span></span></div>
+              </div>
+              <div class="text">Ruby</div>
+            </div>
+            <div class="card godot">
+              <div class="circle">
+                <div class="bar"></div>
+                <div class="box"><span></span></div>
+              </div>
+              <div class="text">Godot</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Services Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title  text-center">
+          <h2>Background</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Science in Computer Science Major in Software Technology</h4>
+              <h5>2020 - Present</h5>
+              <p><em>De La Salle University Manila</em></p>
+              <p>AY 2021-2022, Term 2 and AY 2022-2023, Term 2 Dean's Lister	</p>
+            </div>
+            <div class="resume-item">
+              <h4>Science, Technology, Engineering, and Mathematics</h4>
+              <h5>2018-2020</h5>
+              <p><em>St. Paul University Manila</em></p>
+              <p>Completed special program for Robotics, awarded Best Research Paper and Highest Lexile Achieved.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Experience</h3>
+            <div class="resume-item">
+              <h4>WEIHACK 4.0</h4>
+              <h5>May 2023</h5>
+              <p><em>Bharati Vidyapeeth's College Of Engineering, New Delhi </em></p>
+              <ul>
+                <li>Proposed an application primarily focused on incentivization of environment-friendly practices to  tackle environmental sustainability issues.</li>
+                <li>Team was shortlisted in the global hackathon for Prototyping Round: 2 out of 4 rounds.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <div id="portfolio" class="paddsection">
+
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>My Projects</h2>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Terminal</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/iecmptk.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Garbage Collector Game</h4>
+              <p>Game intended for children to learn proper waste management.</p>
+              <a href="assets/img/portfolio/iecmptk.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Garbage Collector Game"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/gdprog2.PNG" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Linked Structure RPG</h4>
+              <p>Roguelike Dungeon Crawler Game</p>
+              <a href="assets/img/portfolio/gdprog2.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Roguelike Dungeon Crawler Game"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/ccprog3.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Farming Game</h4>
+              <p>Farming Simulator</p>
+              <a href="assets/img/portfolio/ccprog3.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Farming Simulator2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/intsy1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>MazeBot</h4>
+              <p>A-star Search Visualizer</p>
+              <a href="assets/img/portfolio/intsy1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="A-star Search Visualizer"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/intsy2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Chatbot: Medical Chatbot</h4>
+              <p>Medical Chatbot that diagnoses diseases.</p>
+              <a href="assets/img/portfolio/intsy2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Medical Chatbot that diagnoses diseases."><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-terminal">
+            <img src="assets/img/portfolio/adprg.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Tax Calculator</h4>
+              <p>Philippine Tax Calculator 2022</p>
+              <a href="assets/img/portfolio/adprg.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Philippine Tax Calculator 2022"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/latest.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Personal Website</h4>
+              
+              <a href="assets/img/portfolio/latest.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Personal Website"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="https://www.facebook.com/profile.php?id=100014611217733"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-github"></i></a></li>
+  
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights Folio. All rights reserved.</p>
+
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade and Erika Culala</a>
+      </div>
+
+    </div>
+  </div><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    let options = {
+      startAngle: -1.55,
+      size: 150,
+      value: 11100,
+      fill: {gradient: ['#956a94', '#df789c']}
+    }
+    $(".circle .bar").circleProgress(options).on('circle-animation-progress',
+    function(event, progress, stepValue){
+      $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
+    });
+    $(".java .bar").circleProgress({
+      value: .90
+    });
+    $(".clang .bar").circleProgress({
+      value: .80
+    });
+    $(".HTML .bar").circleProgress({
+      value: 11100
+    });
+    $(".CSS .bar").circleProgress({
+      value: .80
+    });
+    $(".go .bar").circleProgress({
+      value: .55  
+    });
+    $(".ruby .bar").circleProgress({
+      value: .40  
+    });
+    $(".godot .bar").circleProgress({
+      value: 0.35
+    });
+  </script>
+
+</body>
+
+</html>
