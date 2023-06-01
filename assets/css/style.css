@@ -624,7 +624,7 @@ a:hover {
 
 .inner p::before {
   content: "";
-  height: 210px;
+  height: 310px;
   width: 2px;
   background: linear-gradient(
     to right,
